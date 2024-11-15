@@ -41,10 +41,10 @@ const Footer = () => {
               <img src={copyrightSign} alt="Copy right sign" width={20} height={20}
               className="rounded-full m-0"
               />
-                <p>Copyright. All Right reserved.</p>
+                <p>Copyright. All Right reserved by Nike this is a Prectis Project. </p>
             </div>
             <p className="font-montserrat curser-pointer">
-              Terms & Conditions
+              Terms & Conditions 
             </p>
       </div>
     </footer>
