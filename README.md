@@ -4,6 +4,7 @@ Welcome to the Nike Shoe Website Clone! This repository is a practice project fo
 
 ## Table of Contents
 - [About the Project](#about-the-project)
+- [Live Demo](#live-demo)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
@@ -21,6 +22,10 @@ The Nike Shoe Website Clone is designed to provide an interactive and visually a
 - **Component Creation**: Developing reusable and modular React components.
 - **Tailwind CSS**: Utilizing utility-first CSS for rapid styling and layout design.
 - **Responsive Design**: Ensuring optimal display across all screen sizes, from mobile to desktop.
+
+## Live Demo
+Check out the live version of the project here:
+🔗 [Nike Shoe Website Clone](https://shoe-galary.vercel.app/)
 
 ## Technologies Used
 - 🌐 **HTML5** - Markup language for structuring content.
@@ -99,5 +104,4 @@ GitHub | LinkedIn
 This project is open-source and available under the MIT License.
 
 Thank you for checking out the Nike Shoe Website Clone! If you have any questions or suggestions, feel free to reach out.
-
 
