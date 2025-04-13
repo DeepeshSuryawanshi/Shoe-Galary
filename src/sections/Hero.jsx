@@ -4,6 +4,7 @@ import { shoes, statistics } from "../Constants"
 import { bigShoe1 } from "../assets/images"
 import ShoeCard from "../Components/ShoeCard"
 import { useState } from "react"
+import Counter from "../Components/counter"
 
 
 
@@ -31,7 +32,7 @@ return (
         <div className="flex justify-center items-start flex-wrap w-full max-sm:mt-10 mt-20 gap-16">
           {statistics.map((sta,index)=>(
             <div key={index}>
-              <p className="text-4xl max-sm:text-3xl font-palanquin font-bold">{sta.value}</p>
+              <p className="text-4xl max-sm:text-3xl font-palanquin font-bold"><Counter target={parseInt(sta.value)} />K</p>
               <p className="leading-7  max-sm:leading-5 font-montserrat text-slate-gray font-semibold">{sta.label}</p>
             </div>
           ))}
